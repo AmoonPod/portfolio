@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.animate-bg {
+    background: linear-gradient(135deg, #b3e5fc, #f3e5fc, #f3e5ff, #b3e5ff, #b3e5fc);
+    background-size: 400% 400%;
+    animation: holo-gradient 15s ease infinite;
+  }
+  
+  @keyframes holo-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
