@@ -17,7 +17,7 @@ export default function Home() {
         <meta property="og:url" content="https://www.manueldeceglie.it" />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://www.manueldeceglie.it" />
-      </Head>s
+      </Head>
 
       <div className="absolute top-0 -left-4 w-[400px] h-[400px] bg-purple-300 dark:bg-[#A78BFF] dark:opacity-5 dark:mix-blend-screen rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob1 pointer-events-none"></div>
       <div className="absolute top-0 -right-4 w-[400px] h-[400px] bg-yellow-300 dark:opacity-5 dark:mix-blend-screen rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob2 pointer-events-none"></div>
