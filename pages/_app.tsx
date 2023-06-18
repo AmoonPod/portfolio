@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
+import { Analytics } from '@vercel/analytics/react';
 import Layout from '../components/Layout'
 import { ThemeProvider } from 'next-themes'
 import { AnimatePresence, motion } from 'framer-motion'
@@ -20,6 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <ThemeProvider defaultTheme='system' attribute='class'>
           <Layout>
             <Component {...pageProps} />
+            <Analytics />
           </Layout>
         </ThemeProvider>
       </motion.div>
